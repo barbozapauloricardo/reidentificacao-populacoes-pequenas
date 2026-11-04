@@ -1,0 +1,5 @@
+Python 3.13.18 | numpy 2.5.3 | pandas 3.0.5 | matplotlib 3.11.2
+SO: Linux 6.18.44-fc-v233 | CPU: x86_64
+Semente: 2026 | Repetições: 2000
+Tempo E1: 179.2 s | Tempo E2+E3: 75.7 s | Total: 254.9 s
+Sensibilidade (E4): 23.7 s | conferência MC S3/D3/N=30: MC=0.1618 x analítico=0.1596
