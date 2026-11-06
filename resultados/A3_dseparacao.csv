@@ -1,0 +1,6 @@
+afirmacao,verdadeira
+D ⊥ K,True
+D ⊥ K | Re,False
+D ⊥ Re | F,True
+N ⊥ S,True
+N ⊥ S | F,False

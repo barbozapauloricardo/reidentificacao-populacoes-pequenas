@@ -121,7 +121,7 @@ if __name__ == "__main__":
     fig.savefig(OUT / "fig3_sensibilidade.png", dpi=200)
     plt.close(fig)
 
-    with open(OUT / "ambiente.txt", "a") as fh:
+    with open(OUT / "ambiente.txt", "a", encoding="utf-8") as fh:
         fh.write(f"Sensibilidade (E4): {time.perf_counter() - t0:.1f} s | "
                  f"conferência MC S3/D3/N=30: MC={mc:.4f} x analítico={an:.4f}\n")
     pd.set_option("display.width", 200)

@@ -294,10 +294,10 @@ if __name__ == "__main__":
     e2.to_csv(OUT / "E2_numero_qi.csv", index=False)
     e3.to_csv(OUT / "E3_resposta_incompleta.csv", index=False)
     figuras(e1, e2)
-    with open(OUT / "ambiente.txt", "w") as fh:
+    with open(OUT / "ambiente.txt", "w", encoding="utf-8") as fh:
         fh.write(f"Python {platform.python_version()} | numpy {np.__version__} | "
                  f"pandas {pd.__version__} | matplotlib {matplotlib.__version__}\n"
                  f"SO: {platform.system()} {platform.release()} | CPU: {platform.processor() or platform.machine()}\n"
                  f"Semente: {SEED} | Repetições: {N_REP}\n"
                  f"Tempo E1: {t1 - t0:.1f} s | Tempo E2+E3: {t2 - t1:.1f} s | Total: {t2 - t0:.1f} s\n")
-    print(open(OUT / "ambiente.txt").read())
+    print(open(OUT / "ambiente.txt", encoding="utf-8").read())

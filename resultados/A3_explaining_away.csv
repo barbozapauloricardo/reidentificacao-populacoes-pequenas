@@ -1,0 +1,5 @@
+consulta,valor
+"P(K=interno | Re=sim, N=30, D=D0)",0.9133251641589415
+"P(K=interno | Re=sim, N=30, D=D1)",0.9167813207328737
+"P(K=interno | Re=sim, N=30, D=D2)",0.9223413720857013
+"P(K=interno | Re=sim, N=30, D=D3)",0.9381540509793709
