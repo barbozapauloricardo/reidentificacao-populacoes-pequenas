@@ -40,7 +40,7 @@ O estudo estima quantos respondentes de um questionário "anônimo" ficam identi
 
 ## Como reproduzir
 
-Requer Python 3.10 ou superior.
+Requer Python 3.10 a 3.14. O pgmpy 1.1 ainda não é compatível com o Python 3.15; quem tiver o 3.15 instalado pode instalar também o 3.13 e rodar os comandos com `py -3.13` no lugar de `python`.
 
 ```bash
 pip install -r requirements.txt
