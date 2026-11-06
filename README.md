@@ -1,5 +1,7 @@
 # Risco de reidentificação em populações pequenas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23996739.svg)](https://doi.org/10.5281/zenodo.23996739)
+
 Código e resultados do artigo **"Quando a anonimização não basta: um modelo causal-probabilístico do risco de reidentificação em pesquisas com populações pequenas"**, de Paulo Ricardo Barboza (PPG em Planejamento e Análise de Políticas Públicas, FCHS/Unesp). O artigo é o trabalho final da disciplina *Big Data, Análise de Dados e Modelos Probabilísticos* (Prof. Dr. Carlos Dias Maciel).
 
 O estudo estima quantos respondentes de um questionário "anônimo" ficam identificáveis numa turma pequena e usa redes bayesianas para raciocinar sobre esse risco: inferência preditiva e diagnóstica, d-separação, intervenção do(·), explicação mais relevante (MRE) e aprendizado de estrutura.
@@ -66,6 +68,10 @@ A semente aleatória é fixa (2026), então os resultados se repetem.
 - Na análise de sensibilidade, o desenho D3 manteve entre 16,0% e 56,1% de respondentes únicos.
 - Dada uma reidentificação, a explicação mais relevante foi o adversário interno (fator de Bayes generalizado de 12,2), e não o desenho do questionário. Essa conclusão se mantém sempre que o adversário externo vincula até 10% dos registros únicos, qualquer que seja P(K = interno).
 - Com 30 respondentes, nenhum algoritmo recuperou a estrutura da rede geradora; a busca com BIC só a recuperou de forma consistente a partir de 1.000.
+
+## Como citar
+
+BARBOZA, P. R. **Quando a anonimização não basta**: código e resultados do modelo causal-probabilístico do risco de reidentificação em populações pequenas. Versão 1.0. Zenodo, 2026. DOI: 10.5281/zenodo.23996739.
 
 ## Licença
 
