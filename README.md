@@ -37,6 +37,7 @@ O estudo estima quantos respondentes de um questionário "anônimo" ficam identi
 | `sensibilidade_mre.py` | Sensibilidade da MRE a P(K = interno) e à chance de vínculo do adversário externo; saída `A6` |
 | `aprendizado_estrutura.py` | Aprendizado de estrutura (E7); saídas `B1` |
 | `figuras_artigo.py` | Figuras do artigo, a partir dos CSVs |
+| `testes_do_artigo.ipynb` | Notebook Jupyter que roda todos os experimentos e mostra tabelas e figuras |
 | `resultados/` | CSVs de cada experimento e `ambiente.txt` (versões e tempos de execução) |
 | `figuras/` | Figuras do artigo (PDF e PNG) |
 
@@ -55,6 +56,8 @@ python figuras_artigo.py          # gera figuras/
 ```
 
 A semente aleatória é fixa (2026), então os resultados se repetem.
+
+Também é possível rodar tudo pelo Jupyter: abra `testes_do_artigo.ipynb` nesta pasta e execute as células em ordem. O notebook roda os mesmos scripts e mostra as tabelas e figuras do artigo.
 
 ## Principais resultados (N = 30, cenário-base)
 
