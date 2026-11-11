@@ -1,0 +1,31 @@
+id,genero,raca,idade,formacao,linha,vinculo,cidade,F_D0,F_D1,F_D2,F_D3
+1,F,Branca,30,Outra,Linha 1,Trabalha,Cidade 2,1,1,2,2
+2,M,Preta,42,Direito,Linha 2,Trabalha,Cidade 5,1,1,1,1
+3,F,Parda,37,Outra,Linha 3,Trabalha,Cidade sede,1,1,1,2
+4,F,Parda,33,Historia,Linha 2,Bolsista,Cidade sede,1,1,1,1
+5,F,Branca,35,Ciencias Sociais,Linha 3,Trabalha,Cidade sede,1,1,1,2
+6,M,Preta,31,Ciencias Sociais,Linha 1,Trabalha,Cidade sede,1,1,1,1
+7,M,Branca,26,Administracao,Linha 2,Bolsista,Cidade 2,1,1,1,1
+8,F,Branca,42,Outra,Linha 3,Trabalha,Cidade 4,1,1,1,1
+9,M,Preta,34,Direito,Linha 2,Trabalha,Cidade sede,1,1,1,1
+10,F,Branca,25,Administracao,Linha 3,Trabalha,Cidade 1,1,1,1,1
+11,M,Parda,51,Economia,Linha 3,Trabalha,Cidade 7,1,1,1,1
+12,M,Branca,24,Direito,Linha 3,Trabalha,Cidade 2,1,1,1,1
+13,M,Branca,28,Ciencias Sociais,Linha 1,Trabalha,Cidade 3,1,1,1,1
+14,M,Parda,36,Servico Social,Linha 2,Trabalha,Cidade 5,1,1,1,1
+15,F,Branca,30,Historia,Linha 2,Trabalha,Cidade sede,1,1,1,2
+16,M,Branca,33,Direito,Linha 3,Trabalha,Cidade 2,1,1,1,1
+17,F,Branca,28,Ciencias Sociais,Linha 1,Bolsista,Cidade 3,1,1,2,2
+18,F,Branca,38,Comunicacao,Linha 1,Trabalha,Cidade 5,1,1,2,2
+19,F,Parda,25,Ciencias Sociais,Linha 2,Bolsista,Cidade sede,1,1,1,2
+20,F,Branca,29,Servico Social,Linha 1,Bolsista,Cidade 2,1,1,2,2
+21,F,Parda,24,Ciencias Sociais,Linha 2,Bolsista,Cidade 1,1,1,1,2
+22,F,Branca,50,Servico Social,Linha 2,Trabalha,Cidade sede,1,1,1,1
+23,M,Branca,48,Ciencias Sociais,Linha 1,Trabalha,Cidade sede,1,1,1,1
+24,F,Branca,30,Direito,Linha 1,Bolsista,Cidade sede,1,1,1,1
+25,F,Branca,27,Direito,Linha 2,Bolsista,Cidade 8,1,1,1,1
+26,F,Parda,26,Direito,Linha 2,Trabalha,Cidade sede,1,1,1,1
+27,F,Branca,45,Direito,Linha 1,Trabalha,Cidade sede,1,1,1,1
+28,M,Branca,29,Administracao,Linha 3,Trabalha,Cidade sede,1,1,1,1
+29,F,Branca,43,Direito,Linha 2,Trabalha,Cidade sede,1,1,1,1
+30,F,Parda,32,Administracao,Linha 2,Trabalha,Cidade sede,1,1,1,2
