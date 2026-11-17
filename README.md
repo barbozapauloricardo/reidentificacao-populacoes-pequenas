@@ -1,6 +1,6 @@
 # Risco de reidentificação em populações pequenas
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23996739.svg)](https://doi.org/10.5281/zenodo.23996739) [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/barbozapauloricardo/reidentificacao-populacoes-pequenas/blob/main/testes_do_artigo.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24325706.svg)](https://doi.org/10.5281/zenodo.24325706) [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/barbozapauloricardo/reidentificacao-populacoes-pequenas/blob/main/testes_do_artigo.ipynb)
 
 Código e resultados do artigo **"Quando a anonimização não basta: um modelo causal-probabilístico do risco de reidentificação em pesquisas com populações pequenas"**, de Paulo Ricardo Barboza (PPG em Planejamento e Análise de Políticas Públicas, FCHS/Unesp). O artigo é o trabalho final da disciplina *Big Data, Análise de Dados e Modelos Probabilísticos* (Prof. Dr. Carlos Dias Maciel).
 
@@ -76,7 +76,7 @@ Também é possível rodar tudo pelo Jupyter: abra `testes_do_artigo.ipynb` nest
 
 ## Como citar
 
-BARBOZA, P. R. **Quando a anonimização não basta**: código e resultados do modelo causal-probabilístico do risco de reidentificação em populações pequenas. Versão 1.0. Zenodo, 2026. DOI: 10.5281/zenodo.23996739.
+BARBOZA, P. R. **Quando a anonimização não basta**: código e resultados do modelo causal-probabilístico do risco de reidentificação em populações pequenas. Versão 1.1. Zenodo, 2026. DOI: 10.5281/zenodo.24325706.
 
 ## Licença
 
