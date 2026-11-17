@@ -39,7 +39,7 @@ O estudo estima quantos respondentes de um questionário "anônimo" ficam identi
 | `figuras_artigo.py` | Figuras do artigo, a partir dos CSVs |
 | `gerar_dados_exemplo.py` | Grava exemplos dos dados sintéticos em `dados_sinteticos/` |
 | `dados_sinteticos/` | Uma turma de 30 respondentes (com o tamanho da classe sob D0 a D3) e uma população de 5.000, para inspeção |
-| `testes_do_artigo.ipynb` | Notebook Jupyter que roda todos os experimentos e mostra tabelas e figuras |
+| `testes_do_artigo.ipynb` | Notebook (Jupyter ou Colab): desenha as duas redes bayesianas e suas CPTs, faz nove perguntas à rede de reidentificação (preditivas, diagnósticas, d-separação, explicação por exclusão, intervenção do(·), MRE e aprendizado de estrutura) e reproduz todos os experimentos |
 | `resultados/` | CSVs de cada experimento e `ambiente.txt` (versões e tempos de execução) |
 | `figuras/` | Figuras do artigo (PDF e PNG) |
 
