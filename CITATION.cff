@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Se usar este código, cite-o como indicado abaixo."
+title: "Quando a anonimização não basta: código e resultados do modelo causal-probabilístico do risco de reidentificação em populações pequenas"
+type: software
+version: "1.1"
+doi: 10.5281/zenodo.24325706
+date-released: 2026-11-17
+authors:
+  - family-names: Barboza
+    given-names: Paulo Ricardo
+    orcid: "https://orcid.org/0009-0009-9580-6501"
+    affiliation: "Universidade Estadual Paulista (Unesp), Faculdade de Ciências Humanas e Sociais"
+repository-code: "https://github.com/barbozapauloricardo/reidentificacao-populacoes-pequenas"
+license: MIT
+keywords:
+  - privacidade
+  - reidentificação
+  - anonimização
+  - redes bayesianas
+  - inferência causal
+  - LGPD
+abstract: >-
+  Código, dados sintéticos e notebook do trabalho "Quando a anonimização não basta",
+  que modela com redes bayesianas o risco de reidentificação de respondentes de
+  questionários em populações pequenas e trata o desenho do questionário como
+  intervenção do(·). Todos os dados são sintéticos.
