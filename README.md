@@ -39,7 +39,8 @@ O estudo estima quantos respondentes de um questionário "anônimo" ficam identi
 | `figuras_artigo.py` | Figuras do artigo, a partir dos CSVs |
 | `gerar_dados_exemplo.py` | Grava exemplos dos dados sintéticos em `dados_sinteticos/` |
 | `dados_sinteticos/` | Uma turma de 30 respondentes (com o tamanho da classe sob D0 a D3) e uma população de 5.000, para inspeção |
-| `testes_do_artigo.ipynb` | Notebook (Jupyter ou Colab): desenha as duas redes bayesianas e suas CPTs, faz nove perguntas à rede de reidentificação (preditivas, diagnósticas, d-separação, explicação por exclusão, intervenção do(·), MRE e aprendizado de estrutura) e reproduz todos os experimentos |
+| `analise_dados.py` | Análise exploratória, testes de independência condicional (qui-quadrado e G²) e descoberta de estrutura com e sem conhecimento prévio, sobre os dados de `dados_sinteticos/`; saídas `C1` a `C5` |
+| `testes_do_artigo.ipynb` | Notebook (Jupyter ou Colab), na ordem usual dos trabalhos de descoberta causal: análise exploratória dos dados, testes de independência, descoberta da estrutura (PC e Hill Climbing) e discussão da topologia, rede de reidentificação, consultas associativas, intervenções, MRE, síntese dos resultados positivos e negativos e reprodução de todos os experimentos. Já vem com as saídas, para leitura direta no GitHub |
 | `resultados/` | CSVs de cada experimento e `ambiente.txt` (versões e tempos de execução) |
 | `figuras/` | Figuras do artigo (PDF e PNG) |
 
@@ -53,7 +54,8 @@ python sim_reidentificacao.py     # cerca de 4 min; E1 a E3
 python sensibilidade.py           # cerca de 30 s; E4
 python rede_reidentificacao.py    # cerca de 2 min; E5 e E6
 python sensibilidade_mre.py       # cerca de 1 min; sensibilidade da MRE
-python aprendizado_estrutura.py   # cerca de 20 s; E7
+python aprendizado_estrutura.py   # cerca de 1 min; E7
+python analise_dados.py           # cerca de 15 s; análise exploratória e testes
 python figuras_artigo.py          # gera figuras/
 ```
 
@@ -77,6 +79,8 @@ Também é possível rodar tudo pelo Jupyter: abra `testes_do_artigo.ipynb` nest
 ## Como citar
 
 BARBOZA, P. R. **Quando a anonimização não basta**: código e resultados do modelo causal-probabilístico do risco de reidentificação em populações pequenas. Versão 1.1. Zenodo, 2026. DOI: 10.5281/zenodo.24325706.
+
+A citação também pode ser copiada em APA ou BibTeX pelo botão **Cite this repository**, na coluna da direita desta página.
 
 ## Licença
 
