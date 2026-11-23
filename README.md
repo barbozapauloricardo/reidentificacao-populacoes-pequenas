@@ -6,7 +6,7 @@ Código e resultados do artigo **"Quando a anonimização não basta: um modelo 
 
 O estudo estima quantos respondentes de um questionário "anônimo" ficam identificáveis numa turma pequena e usa redes bayesianas para raciocinar sobre esse risco: inferência preditiva e diagnóstica, d-separação, intervenção do(·), explicação mais relevante (MRE) e aprendizado de estrutura.
 
-> **Todos os dados são sintéticos.** As distribuições usadas são hipóteses de modelagem, não estatísticas de nenhum programa real. Nenhum dado pessoal foi coletado, lido ou vinculado a pessoas.
+> **Os dados do modelo são sintéticos.** As distribuições usadas são hipóteses de modelagem, não estatísticas de nenhum programa real. Nenhum dado pessoal foi coletado. A comparação com dados reais usa as respostas anonimizadas e públicas da pesquisa de 2022 do Stack Overflow com desenvolvedores (Stack Overflow, *Developer Survey 2022*, https://survey.stackoverflow.co/, licença [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)), apenas para calcular proporções agregadas, sem examinar, exibir ou vincular registros individuais.
 
 ## Modelo, em resumo
 
@@ -40,6 +40,7 @@ O estudo estima quantos respondentes de um questionário "anônimo" ficam identi
 | `gerar_dados_exemplo.py` | Grava exemplos dos dados sintéticos em `dados_sinteticos/` |
 | `dados_sinteticos/` | Uma turma de 30 respondentes (com o tamanho da classe sob D0 a D3) e uma população de 5.000, para inspeção |
 | `analise_dados.py` | Análise exploratória, testes de independência condicional (qui-quadrado e G²) e descoberta de estrutura com e sem conhecimento prévio, sobre os dados de `dados_sinteticos/`; saídas `C1` a `C5` |
+| `analise_dados_reais.py` | Comparação com dados reais: unicidade dos respondentes da pesquisa de 2022 do Stack Overflow por tamanho do país e por desenho do questionário; saídas `R1` e `R2`. Baixa os dados na primeira execução (cerca de 100 MB, gravados em `dados_reais/`, que não vai para o repositório) |
 | `testes_do_artigo.ipynb` | Notebook (Jupyter ou Colab), na ordem usual dos trabalhos de descoberta causal: análise exploratória dos dados, testes de independência, descoberta da estrutura (PC e Hill Climbing) e discussão da topologia, rede de reidentificação, consultas associativas, intervenções, MRE, síntese dos resultados positivos e negativos e reprodução de todos os experimentos. Já vem com as saídas, para leitura direta no GitHub |
 | `resultados/` | CSVs de cada experimento e `ambiente.txt` (versões e tempos de execução) |
 | `figuras/` | Figuras do artigo (PDF e PNG) |
@@ -56,6 +57,7 @@ python rede_reidentificacao.py    # cerca de 2 min; E5 e E6
 python sensibilidade_mre.py       # cerca de 1 min; sensibilidade da MRE
 python aprendizado_estrutura.py   # cerca de 1 min; E7
 python analise_dados.py           # cerca de 15 s; análise exploratória e testes
+python analise_dados_reais.py     # cerca de 15 s (mais o download); dados reais
 python figuras_artigo.py          # gera figuras/
 ```
 
